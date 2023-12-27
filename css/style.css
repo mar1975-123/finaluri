@@ -260,3 +260,23 @@ footer{
   flex-direction: column;
   display: flex;
 }
+.div1{
+  display: block;
+}
+.grid {
+  position: relative;
+  margin: -10px;
+}
+.large {
+  font-size: 1.125em;}
+.div2{
+  text-align: center;
+  color: #4d585a;
+}
+.text5{
+  width: 100%;
+}
+.div3{
+  padding: 20px;
+  text-align: center;
+}
