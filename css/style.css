@@ -1,0 +1,262 @@
+body {
+  margin: 0;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+.header {
+  display: flex;
+  align-items: center;
+}
+.text1 {
+  margin-left: 30px;
+  font-size: 32px;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+nav {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+img {
+  width: 108px;
+  height: 101px;
+  margin-top: 24px;
+  margin-left: 83px;
+}
+.navigation {
+  display: flex;
+  align-items: flex;
+}
+.unorder {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  column-gap: 61px;
+}
+.icon1 {
+  display: flex;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  vertical-align: 2px;
+}
+
+.navbar {
+  color: #000;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.poto4 {
+  width: 30px;
+  height: 25px;
+  margin: 0;
+}
+
+.input-group {
+  border-radius: 40px;
+  position: relative;
+}
+.conteiner {
+  display: flex;
+}
+
+.conteiner1 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding-top: 20px;
+}
+.surati {
+  width: 1300px;
+  height: 612px;
+  margin-top: -1px;
+
+  background-repeat: no-repeat;
+}
+
+.poto {
+  width: 100%;
+  height: 333px;
+  background-image: url("../image/foni.png");
+}
+.text2 {
+  font-size: 30px;
+  color: #000;
+  margin-left: 83px;
+}
+.text3 {
+  width: 1140px;
+  height: 45px;
+  color: #ffffff;
+  text-align: center;
+  display: inline flex;
+  font-family: karma;
+  font-size: 24px;
+}
+.pototext1 {
+  width: 89px;
+  height: 32px;
+  font-size: 22px;
+  line-height: 32px;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-left: 916px;
+}
+
+.forms-group {
+  position: relative;
+  margin-left: 100px;
+}
+.forms-group .label {
+  position: relative;
+  padding: 5px 3px 0 0;
+  box-sizing: border-box;
+  display: block;
+  font-size: 12px;
+}
+.forms-group .input-text {
+  width: 300px;
+  border: 1px solid #a9b3bd;
+  background-color: #fafafa;
+  border-radius: 3px;
+  outline: 0;
+  padding: 0 0 0 10px;
+  -webkit-appearance: none;
+}
+
+.main-wrapper .wrp-dt-bg {
+  padding: 0 0 20px;
+  color: #4d585a;
+}
+.button1 {
+  margin-left: 100px;
+  border-bottom: 2px solid #ca3400;
+  font-size: 14px;
+  padding: 7px 20px;
+}
+button {
+  background-color: #ca3400;
+}
+footer{
+  background-image: url(../image/poto0.png);
+}
+.poto1 {
+  display: flex;
+  column-gap: 20px;
+}
+.text4 {
+  margin-left: 70px;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+}
+.main1 {
+  margin-left: 53px;
+  list-style: none;
+  padding-left: 20px;
+  font-size: 20px;
+}
+.phone {
+  width: 24px;
+  height: 24px;
+  margin-left: 34px;
+}
+.nomeri {
+  width: 85px;
+  height: 21px;
+  padding-left: 20px;
+  display: inline;
+}
+.location {
+  width: 24px;
+  height: 24px;
+  margin-left: 100px;
+}
+.location1 {
+  display: inline;
+}
+.text5 {
+  font-family: "DejaVu Sans Condensed Bold Oblique", sans-serif;
+}
+.help {
+  width: 45px;
+  height: 36px;
+}
+@media  (max-width:600px) {
+  
+  .lg\:w-1\/2 {
+    width: 100%;
+  }
+}
+.unorder1 {
+  display: flex;
+}
+.style1 {
+  list-style: none;
+  width: 160px;
+  height: 24px;
+  margin-top: 24px;
+}
+.contact {
+  width: 80px;
+  height: 36px;
+}
+.icons{
+  margin: 0px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-around;
+  column-gap: 20px;
+}
+.icons img {
+  width: 30px;
+  height: 30px;
+  
+}
+.border-bottom{
+  border-bottom: 1px solid;
+}
+.grow1{
+  flex-grow: 1;
+}
+.places {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  gap: 10%;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background: #273a47;
+  border: 0.1875em solid black;
+  border-radius: 50%;
+  box-shadow: 0.375em red;
+  height: 10em;
+  width: 10em;
+}
+.conteiner2 {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.learn {
+  width: 100%;
+  height: 333px;
+}
+.wrapper{
+  margin-top: 50px;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
